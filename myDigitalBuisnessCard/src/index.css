@@ -2,13 +2,25 @@
   box-sizing: border-box;
 }
 
+.container {
+  margin-left: 40%;
+  width: 300px;
+  justify-content: center;
+  background-color: lightblue;
+}
+
 body {
   text-align: center;
   font-family: Inter;
   font-style: normal;
 }
 
+h2 {
+  color: #2B283A;
 
+}
+
+/*Info Component */
 
 img {
   height: 317px;
@@ -55,4 +67,13 @@ button {
 
 .button--email {
   background-color: #FFF;
+}
+
+/* About Component */
+
+.main--about {
+
+  text-align: left;
+  margin-left: 35px;
+  width: 250px;
 }
