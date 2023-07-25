@@ -4,7 +4,7 @@ import ProfilePic from '/img/profile-pic.png'
 export default function Info() {
     return (
         <div className='main--info'>
-            <img src={ProfilePic} alt="" />
+            <img className='profile-pic' src={ProfilePic} alt="" />
             <h1 className='info--header'>Josh Endemann</h1>
             <h3 className='info--header3'>Full-Stack Developer</h3>
             <a className='info--a' href='https://joshuaendemann-portfolio.netlify.app/'>My Portfolio</a>

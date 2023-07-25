@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Skills() {
     return (
-        <div>
+        <div className='main--body'>
             <h3>Skills</h3>
             <ul>
                 <li>Front-End Development</li>

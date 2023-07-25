@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-        <div className='main--about'>
+        <div className='main--body'>
             <h2>About</h2>
             <p>
                 Highly motivated web developer dedicated to personal and professional growth.

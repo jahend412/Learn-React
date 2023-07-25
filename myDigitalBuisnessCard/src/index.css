@@ -22,9 +22,14 @@ h2 {
 
 /*Info Component */
 
-img {
-  height: 317px;
-  width: 317px;
+.profile-pic {
+  height: 320px;
+  width: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
 }
 
 .info--header {
@@ -69,11 +74,24 @@ button {
   background-color: #FFF;
 }
 
-/* About Component */
+/* About + Skills Component is .main--body */
 
-.main--about {
+.main--body {
 
   text-align: left;
   margin-left: 35px;
   width: 250px;
+}
+
+/* Footer Component */
+
+.main--footer {
+  background-color: lightgray;
+
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  margin: 20px;
 }
