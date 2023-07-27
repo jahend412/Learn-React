@@ -5,11 +5,7 @@ import Card from '/src/components/Card'
 import data from '/src/data'
 
 
-
-import './App.css'
-
-export default function App(props) {
-  // Hero
+export default function App() {
   const cards = data.map(item => {
     return (
       <Card
@@ -17,13 +13,15 @@ export default function App(props) {
         img={item.coverImg}
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
-        country={item.location}
+        location={item.location}
         title={item.title}
         price={item.price}
+        openSpots={item.openSpots}
       />
     )
   })
 
+  // <Hero />
   return (
     <div>
       <NavBar />
@@ -33,5 +31,3 @@ export default function App(props) {
     </div>
   )
 }
-
-
