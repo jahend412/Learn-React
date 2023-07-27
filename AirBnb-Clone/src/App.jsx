@@ -15,10 +15,11 @@ export default function App() {
     )
   })
 
-  // <Hero />
+
   return (
     <div>
       <NavBar />
+      <Hero />
       <section className="cards-list">
         {cards}
       </section>
