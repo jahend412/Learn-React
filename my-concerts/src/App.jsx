@@ -1,19 +1,26 @@
 import React from "react"
 import NavBar from './components/NavBar'
-import Main from "./components/main"
-import Card from "./components/Card"
+import data from "/src/data"
+import Card from '/src/components/Card'
 
 
-function App() {
+export default function App() {
+  const cards = data.map(item => {
+    return (
+      <Card
+        key={item.id}
+        item={item}
+      />
+    )
+  })
+
 
   return (
-    <div className="container">
+    <div>
       <NavBar />
-      <Main />
-      <Card />
+      <section className="cards-list">
+        {cards}
+      </section>
     </div>
-
   )
 }
-
-export default App
