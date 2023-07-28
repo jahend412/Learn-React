@@ -1,7 +1,9 @@
 import React from "react";
 
 export default function NavBar() {
-    <nav>
-
-    </nav>
+    return (
+        <nav>
+            <h1>My Concerts</h1>
+        </nav>
+    )
 }
