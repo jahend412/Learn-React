@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        Band: "Rush",
+        band: "Rush",
         description: 'Rush was a Canadian rock band that primarily comprised Geddy Lee (bass, keyboards, vocals), Alex Lifeson (guitar), and Neil Peart (drums, percussion, lyricist). ',
         price: 70,
         coverImg: "rush.png",
