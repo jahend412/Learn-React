@@ -7,7 +7,8 @@ export default [
         coverImg: "rush.png",
         date: '9/6/2007',
         venue: "Marcus Amphitheater",
-        tour: 'Snakes & Arrows'
+        tour: 'Snakes & Arrows',
+        location: 'Milwaukee, WI'
 
     },
     {
@@ -18,7 +19,8 @@ export default [
         coverImg: "flaming-lips.png",
         date: '7/8/2015',
         venue: "SummerFest grounds",
-        tour: 'Summerfest'
+        tour: 'Summerfest',
+        location: 'Milwaukee, WI'
 
     },
     {
@@ -29,7 +31,8 @@ export default [
         coverImg: "phish.png",
         date: '8/12/2022',
         venue: "Alpine Valley",
-        tour: '2022 Summer Tour'
+        tour: '2022 Summer Tour',
+        location: 'East Troy, WI'
     },
     {
         id: 4,
@@ -39,7 +42,8 @@ export default [
         coverImg: "phish.png",
         date: '8/13/2022',
         venue: "Alpine Valley",
-        tour: '2022 Summer Tour'
+        tour: '2022 Summer Tour',
+        location: 'East Troy, WI'
     },
     {
         id: 5,
@@ -49,6 +53,7 @@ export default [
         coverImg: "phish.png",
         date: '8/13/2022',
         venue: "Alpine Valley",
-        tour: '2022 Summer Tour'
+        tour: '2022 Summer Tour',
+        location: 'East Troy, WI'
     }
 ]
