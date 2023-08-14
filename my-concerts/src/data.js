@@ -7,7 +7,7 @@ export default [
         coverImg: "rush.png",
         date: '9/6/2007',
         venue: "Marcus Amphitheater",
-        tour: 'Snakes & Arrows',
+        tour: 'Snakes & Arrows tour',
         location: 'Milwaukee, WI'
 
     },
