@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "react-md": "^5.1.6",
+    "react-split": "^2.0.14",
+    "showdown": "^2.1.0"
+  }
+}
